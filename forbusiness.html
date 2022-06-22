@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="normalize.min.css">
+    <title>First Class Studio</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
+    <link rel="manifest" href="image/site.webmanifest">
+    <link rel="mask-icon" href="image/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal({
+            duration: 500
+        });
+    </script>
+</head>
+
+<body class="overflow-hidden">
+
+    <div class="preloader">
+    </div>
+
+    <header>
+        <div class="header header-non-transparent">
+            <div class="logo">
+                <a href="index.html"><img src="image/firstclasslogo052022-GRADIENT-L.png" alt="first class logo"></a>
+            </div>
+            <div class="mobilemenucontainer">
+                <div class="mobilemenuicon"></div>
+            </div>
+            <div class="nav">
+                <a href="./news.html">news</a>
+                <a href="./aboutus.html">o nas</a>
+                <!-- <a href="#">test</a> -->
+                <a href="./courses.html">kursy</a>
+                <a href="./forbusiness.html">dla firm</a>
+                <a href="./method.html">metoda</a>
+                <a href="./pricing.html">cennik</a>
+                <a href="./contact.html">kontakt</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="for-business-info">
+            <div class="for-business-container">
+                <div class="for-business-photo-header-wrapper">
+                    <div class="top-header for-business-header">dla biznesu</div>
+                </div>
+                <div class="for-business-text" id="for-business-text-01">
+                    <img src="./image/fc_www_mainpic_L_03.jpg">
+                    <p>Oferta skierowana do przedsiębiorstw dużych i małych, w których język jest lub będzie jednym z
+                        narzędzi pracy.
+                        Zajęcia są prowadzone stacjonarnie w naszym studiu, w siedzibie klienta lub online.
+                        Mogą mieć charakter indywidualnych sesji z lektorem, lub spotkań w mikro-grupie słuchaczy.
+                    </p>
+                </div>
+                <div class="for-business-text" id="for-business-text-02">
+                    <p>Współpracę zaczynamy od nieodpłatnego spotkania z kadrą, podczas którego ocenimy poziom
+                        zaawansowania
+                        pracowników,
+                        poznamy Państwa oczekiwania i wstępnie ustalimy ramy kursu. Następnie dobieramy lub samodzielnie
+                        przygotowujemy materiały, w oparciu o które prowadzimy zajęcia.
+                        Przygotowując kursy, uwzględnieniamy potrzeby i specyfikę branży, w której działa firma. </p>
+                </div>
+                <div class="for-business-text" id="for-business-text-03">
+                    <p>Podczas zajęć firmowych usprawniamy codzienną komunikację zawodową zarówno w mowie, jak i na
+                        piśmie.
+                        Poznajemy wyrażenia, niezbędne podczas rozmowów w danej dziedzinie i danym dziale oraz żargon
+                        branżowy. Pomagamy przygotowywać dokumentację i prowadzić korespondencję w języku obcym z pełnym
+                        zachowaniem
+                        poufności. Ćwiczymy zwroty potrzebne w podróży służbowej i podczas negocjacji.
+                        Ponadto, wskazujemy różnice kulturowe mające wpływ na sposób prowadzenia interesów w różnych
+                        częściach globu.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer footer-position-top">
+            <a href="mailto:studio@firstclassstudio.pl"><img src="image/firstclass_sm_1.png"></a>
+            <a href="https://www.facebook.com/firstclassstudiojezykowe" target="blank"><img
+                    src="image/firstclass_sm_2.png"></a>
+            <a href="https://www.instagram.com/first_class_studiopl/" target="blank"><img
+                    src="image/firstclass_sm_3.png"></a>
+        </div>
+    </footer>
+
+    <script>
+        // REVEAL FUNCTIONS
+        ScrollReveal().reveal('.top-header', {
+            delay: 200,
+            scale: 0.80
+        });
+        ScrollReveal().reveal('#for-business-text-01', {
+            delay: 400,
+            scale: 0.80
+        });
+        ScrollReveal().reveal('#for-business-text-02', {
+            delay: 500,
+            scale: 0.80
+        });
+        ScrollReveal().reveal('#for-business-text-03', {
+            delay: 600,
+            scale: 0.80
+        });
+    </script>
+    <script src="/main.js"></script>
+</body>
+
+</html>
